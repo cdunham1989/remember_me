@@ -26,6 +26,10 @@ So I can find my memories
 I would like to be able to sort them by title or date
 
 As a user
+So I can keep my memories up to date
+I would like to be able to edit and delete my memories if needed
+
+As a user
 So I can group my memories
 I would like to be able to tag my memories
 
@@ -46,6 +50,10 @@ I would like to be able to send my memories by MMS
 As a user
 So I can share my memories
 I would like to be able to share my memories to social media
+
+As a user
+So I can see what other users think of my memories
+I would like other users to be able to comment on my memories
 ```
 
 ## Tech Stack
