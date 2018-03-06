@@ -34,7 +34,7 @@ So I can find a specific memory
 I would liek to be able to search the memories by title, tag or date.
 ```
 
--- Stretch Goals
+### Stretch Goals
 
 ```
 As a user
