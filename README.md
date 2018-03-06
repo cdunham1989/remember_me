@@ -11,7 +11,7 @@ I would like to be able to create an account and log in
 
 As a user
 So I can remember things I have done
-I would like to be able to create a new memory
+I would like to be able to create a new memory title
 
 As a user
 So I can remember exactly what I did
@@ -32,11 +32,9 @@ I would like to be able to tag my memories
 As a user
 So I can find a specific memory
 I would liek to be able to search the memories by title, tag or date.
-```
 
-### Stretch Goals
+*Stretch Goals*
 
-```
 As a user
 So I can share my memories
 I would like to be able to tag other users in my memories
@@ -49,3 +47,13 @@ As a user
 So I can share my memories
 I would like to be able to share my memories to social media
 ```
+
+## Tech Stack
+
+Ruby, RSpec, Sinatra, Capybara, HTML & CSS
+
+## Building Process
+
+I want to build this web application to remind myself how to build a full stack web application in Ruby.
+
+I have set myself some simple user stories which I know I can complete quite easily to get myself started. But the later user stories and the stretch goals start to touch onto things I have not done before.
