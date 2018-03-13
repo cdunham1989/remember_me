@@ -10,4 +10,12 @@ describe Memory do
             expect(memories).to include("Christmas at Home")
         end
     end
+
+    describe '.create' do
+        it 'creates a new memory' do
+            Memory.create(title: 'Day at the Beach', description: 'A day at the beach in Brighton with friends')
+
+            expect(Memory.all).to include 'Day at the Beach'
+        end
+    end
 end

@@ -12,10 +12,7 @@ class RememberMe < Sinatra::Base
     end
 
     post '/create-new-memory' do
-        title = params['title']
-        description = params['description']
-        connection = PG.connect(dbname: 'remember_me_test')
-        connection.exec("INSERT INTO memories (title) VALUES('#{title}'), (description) VALUES('#{description}')")
+        Memory.creat(title: params['title'], description: params['description'])
         redirect '/'
     end
 
