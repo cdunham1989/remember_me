@@ -1,5 +1,6 @@
 require 'sinatra/base'
 require './lib/memory'
+require './database_connection_setup'
 
 class RememberMe < Sinatra::Base
     get '/' do
