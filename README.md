@@ -66,6 +66,10 @@ I want to build this web application to remind myself how to build a full stack 
 
 I have set myself some simple user stories which I know I can complete quite easily to get myself started. But the later user stories and the stretch goals start to touch onto things I have not done before.
 
+I have decided that this project is very similar to those of some fo the projects I did during makers academy. Especially the [Bookmark Manager](https://github.com/cdunham1989/bookmark-manager) application.
+
+Therefore I am going to move on to something a bit more in depth and work on something to prepare me for interview style tech tests.
+
 ## Using the application
 
 Run `rake setup` to setup the project as intended. This will create the necessary databases and tables.
