@@ -65,3 +65,7 @@ Ruby, RSpec, Sinatra, Capybara, HTML & CSS
 I want to build this web application to remind myself how to build a full stack web application in Ruby.
 
 I have set myself some simple user stories which I know I can complete quite easily to get myself started. But the later user stories and the stretch goals start to touch onto things I have not done before.
+
+## Using the application
+
+Run `rake setup` to setup the project as intended. This will create the necessary databases and tables.

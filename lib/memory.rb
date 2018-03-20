@@ -7,6 +7,8 @@ class Memory
     end
 
     def self.create(options)
-        DatabaseConnection.query("INSERT INTO memories (title, description) VALUES('#{options[:title]}', '#{options[:description]}')")
+        if options[:title] != ""
+            DatabaseConnection.query("INSERT INTO memories (title, description) VALUES('#{options[:title]}', '#{options[:description]}')")
+        end
     end
 end

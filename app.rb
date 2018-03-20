@@ -13,7 +13,7 @@ class RememberMe < Sinatra::Base
     end
 
     post '/create-new-memory' do
-        Memory.creat(title: params['title'], description: params['description'])
+        params['title'] != '' ? Memory.create(title: params['title'], description: params['description']) : flash[:notice] = "You must give your memory a title."
         redirect '/'
     end
 

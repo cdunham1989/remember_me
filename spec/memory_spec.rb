@@ -17,5 +17,11 @@ describe Memory do
 
             expect(Memory.all).to include 'Day at the Beach'
         end
+
+        it 'does not create a memory with no title' do
+            Memory.create(title: "", description: 'test')
+
+            expect(Memory.all).not_to include ''
+        end
     end
 end
